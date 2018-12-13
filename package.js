@@ -3,8 +3,8 @@
 Package.describe({
   summary: 'Meteor sign up and sign in templates core package.',
   version: '1.14.2',
-  name: 'useraccounts:core',
-  git: 'https://github.com/meteor-useraccounts/core.git',
+  name: 'd3k4y:useraccounts-core',
+  git: 'https://github.com/d3k4y/core.git',
 });
 
 Package.onUse(function(api) {
@@ -30,7 +30,7 @@ Package.onUse(function(api) {
 
   api.imply([
     'accounts-base',
-    'softwarerero:accounts-t9n@1.3.3',
+    'softwarerero:accounts-t9n',
   ], ['client', 'server']);
 
   api.imply([
