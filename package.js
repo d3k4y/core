@@ -2,7 +2,7 @@
 
 Package.describe({
   summary: 'Meteor sign up and sign in templates core package.',
-  version: '1.14.2',
+  version: '1.14.3',
   name: 'd3k4y:useraccounts-core',
   git: 'https://github.com/d3k4y/core.git',
 });
