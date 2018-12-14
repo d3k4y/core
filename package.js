@@ -79,7 +79,7 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
-  api.use('useraccounts:core@1.14.2');
+  api.use('d3k4y:useraccounts-core@1.14.3');
 
   api.use([
     'accounts-password',
