@@ -7,12 +7,18 @@ Package.describe({
   git: 'https://github.com/d3k4y/core.git',
 });
 
+Npm.depends({
+  'meteor-accounts-t9n': '2.3.1',
+});
+
+
 Package.onUse(function(api) {
   api.versionsFrom('METEOR@1.0.3');
 
   api.use([
     'accounts-base',
     'check',
+    'ecmascript',
     'underscore',
     'reactive-var',
   ], ['client', 'server']);
@@ -30,7 +36,6 @@ Package.onUse(function(api) {
 
   api.imply([
     'accounts-base',
-    'softwarerero:accounts-t9n@2.2.1',
   ], ['client', 'server']);
 
   api.imply([
