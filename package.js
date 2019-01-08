@@ -18,7 +18,7 @@ Package.onUse(function(api) {
   api.use([
     'accounts-base',
     'check',
-    'ecmascript',
+    'ecmascript@0.10.0',
     'underscore',
     'reactive-var',
   ], ['client', 'server']);
